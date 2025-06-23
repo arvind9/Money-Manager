@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+}
+
+.transaction-text {
+  color: #334155;
+  font-size: 14px;
+  width: 30%;
+  margin: 0;
+  text-align: left;
+}
+
+.delete-button-container {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+.delete-img {
+  width: 20px;
+  height: 20px;
+}

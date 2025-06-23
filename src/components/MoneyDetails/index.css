@@ -1,0 +1,68 @@
+/* Write your CSS here */
+/* src/components/MoneyDetails/index.css */
+.money-details-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 0px 50px 0px 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .money-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.balance-container,
+.income-container,
+.expenses-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-container,
+  .income-container,
+  .expenses-container {
+    width: 32%;
+    margin-bottom: 0;
+  }
+}
+
+.balance-container {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+
+.income-container {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+
+.expenses-container {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+.details-img {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.details-text {
+  color: #475569;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.details-money {
+  color: #1e293b;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0;
+}
